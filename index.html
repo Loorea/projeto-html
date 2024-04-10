@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Tag Aside</title>
+    <title>MENU</title>
     <link rel="stylesheet" href="C:\Users\jjone\OneDrive\Documentos\GitHub\projeto-html\style.css">
 
 </head>
@@ -18,14 +18,29 @@
             <li><a href="#">Contato</a></li>
         </ul>
     </nav>
-    <main>
-        <h2 id="h2">Main Content</h2>
-        <p id="p">Espaco reservado</p>
-        <section id="section1">
+    <main class="index">
+        <ul class="slider">
+            <li>
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="C:\Users\jjone\Downloads\adm.png" width="300px", height="250px"></li>
+            <li>
+                <input type="radio" id="slide2" name="slide">
+                <label for="slide2"></label>
+                <img src="C:\Users\jjone\Downloads\ads.png" width="300px", height="250px"></li>
+            <li>
+                <input type="radio" id="slide3" name="slide">
+                <label for="slide3"></label>
+                <img src="C:\Users\jjone\Downloads\eng de software.png" width="300px", height="250px"></li>
+        </ul><br>        
+            <h2 id="h2">Main Content</h2>
+            <p id="p">Espaco reservado</p>
+        <section class="section"; id="section1" >
             <h3>PROJETO 1</h3>
             <p>Espaco reservado para a secao 1</p>
+
         </section>
-        <section id="section2">
+        <section class="section"; id="section2">
             <h3>PROJETO 2</h3>
             <p>Espaco reservado para a secao 2</p>
         </section>
@@ -33,14 +48,14 @@
     </main>
     <aside>
         <h2 id="h2">Tópicos</h2>
-        <ul>
+        <ul class="menu-item-aside">
             <li><a href="#">Projeto 1</a></li>
             <li><a href="#">Projeto 2</a></li>
             <li><a href="#">Projeto 3</a></li>
         </ul>
 
         <h2 id="h2">Links</h2>
-        <ul>
+        <ul class="menu-item-aside">
             <li><a href="#">Google</a></li>
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">Github</a></li>

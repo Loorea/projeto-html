@@ -1,5 +1,5 @@
 nav {
-    background-color: #e3bcde;
+    background-color: #7bb975;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -24,30 +24,23 @@ body {
     background-color: black;
 }
 header, footer {
-    background-color: #942f88;
+    background-color: #18432a;
     color: #f0f0f0;
     padding: 10px;
 }
-main  {
+.index{
     display: inline-block;
     vertical-align: top;
-    width: 60%;
+    width: 45%;
     padding: 20px;
+    background-color: #85e892;    
 }
 aside  {
-    display: inline-block;
+    display:inline-block;
     vertical-align: top;
-    width: 35.5%;
-    padding-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-}
-main {
-    background-color: #f4daf1;
-}
-aside {
-    background-color: #ffeafc;
+    width: 45%;
+    padding: 5px;
+    background-color: #76af77;    
 }
 @media only screen and (max-width: 600px) {
     main, aside {
@@ -55,21 +48,89 @@ aside {
         width: 100%;
     }
 }
-#section1 {
-    background-color: #cc8fc6;
+.sobre, .serv, .cont{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 20px;
+    background-color: #85e892;    
+}
+.sects{
+    border-radius: 10px; 
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding: 10px;
+    color: #000000;
+    margin-bottom: 10px;  
+}
+.section{
+    border-radius: 10px; 
     display: inline-block;
     vertical-align: top;
     width: 50%;
-    padding-left: 10px;
-    color: #fff;
-    margin-bottom: 10px;
+    padding: 10px;
+    color: #000000;
+    margin-bottom: 10px; 
+}
+#section1 {
+    background-color: #05ff26;
+
+   
 }
 #section2 {
-    background-color: #cc8fc6;
-    display: inline-block;
+    background-color: #32e866;
+
+}
+.slider{
+    list-style-type: none;
+}
+.slider {
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+    position: relative;
+    padding: 0;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
     vertical-align: top;
-    width: 50%;
-    padding-left: 10px;
-    color: #fff;
-    margin-bottom: 10px;
+    opacity: 0;
+    visibility: hidden;
+    animation:;
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #3e0303;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
 }
