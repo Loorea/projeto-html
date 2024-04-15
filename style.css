@@ -32,13 +32,15 @@ header, footer {
     display: inline-block;
     vertical-align: top;
     width: 45%;
+    height: 100%;
     padding: 20px;
     background-color: #85e892;    
 }
 aside  {
     display:inline-block;
     vertical-align: top;
-    width: 45%;
+    width: 51%;
+    height: 100%;
     padding: 5px;
     background-color: #76af77;    
 }
@@ -103,12 +105,13 @@ aside  {
     vertical-align: top;
     opacity: 0;
     visibility: hidden;
-    animation:;
+    animation:reverse;
+}
 .slider input {
     display: none;
 }
 .slider label {
-    background-color: #3e0303;
+    background-color: #76af77;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -133,4 +136,11 @@ aside  {
     opacity: 1;
     visibility: visible;
     z-index: 10;
+}
+form{
+    width: 40%;
+}
+.nome, .email, .msg{
+    background-color: #cbf2d0;
+    color: rgb(15, 54, 10);
 }
