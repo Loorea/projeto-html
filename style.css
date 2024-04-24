@@ -144,3 +144,16 @@ form{
     background-color: #cbf2d0;
     color: rgb(15, 54, 10);
 }
+table{
+    align-content: center;
+    width: 80%;
+    max-height: 100%;
+}
+thead{
+    background-color: #c5e6c9;
+}
+tbody tr td{
+    background-color: #14542e;
+    color: #f0f0f0;
+    border: #000000;
+}
