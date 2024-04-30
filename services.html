@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\Users\jjone\OneDrive\Documentos\GitHub\projeto-html\style.css">
+    <link rel="stylesheet" href="style.css">
     <title>SERVIÇOS</title>
 </head>
 <body>
@@ -18,40 +18,42 @@
             <li><a href="contato.html" target="_blank">Contato</a></li>
         </ul>
     </nav>
-    <main class="serv">
-        <h2 id="h2">Main Content</h2>
-        <p id="p">Espaco reservado</p>
-        <h1>Serviços tecnológicos</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Serviço</th>
-                    <th>Descrição</th>
-                    <th>Preço</th>
-                </tr>
-            </thead>
-            <tbody>
-                <td data-label="Serviço">Serviço 1</td>
-                <td data-label="Descrição">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quibusdam, fugiat explicabo esse itaque ut harum.</td>
-                <td data-label="Preço">R$ 100,00</td>
-            </tr>
-            <tr>
-                <td data-label="Serviço">Serviço 2</td>
-                <td data-label="Descrição">ipsum</td>
-                <td data-label="Preço">R$ 100,00</td>
-            </tr>
-            <tr>
-                <td data-label="Serviço">Serviço 3</td>
-                <td data-label="Descrição">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quis eveniet voluptas vitae corrupti distinctio, eius molestiae unde quas quo sint animi ducimus quia!</td>
-                <td data-label="Preço">R$ 100,00</td>
-            </tr>
-            </tbody>
-        </table>
-        <section class="sects"; >
+    <div class="container">
+        <h1>Serviços Tecnológicos</h1>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Serviço">Inteligência Artificial</td>
+                        <td data-label="Descrição">Soluções de IA para automação, análise de dados e aprendizado de máquina.</td>
+                        <td data-label="Preço">R$ 1.000,00/hora</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Serviço">Desenvolvimento Web</td>
+                        <td data-label="Descrição">Criação de sites e aplicativos web responsivos e modernos.</td>
+                        <td data-label="Preço">R$ 100,00/hora</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Serviço">Processos Automatizados</td>
+                        <td data-label="Descrição">Automação de processos para melhorar a eficiência operacional.</td>
+                        <td data-label="Preço">R$ 200,00/hora</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+        <section class="sects"; id="section1">
             <h3>PROJETO 1</h3>
             <p>Espaco reservado para a secao 1</p>
         </section>
-        <section class="sects";>
+        <section class="sects"; id="section2">
             <h3>PROJETO 2</h3>
             <p>Espaco reservado para a secao 2</p>
         </section>

@@ -45,21 +45,35 @@
             <li><a href="#">Google</a></li>
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">Github</a></li>
-        </ul><br>
-        <ul class="slider">
-            <li>
-                <input type="radio" id="slide1" name="slide" checked>
-                <label for="slide1"></label>
-                <img src="adm.png" width="300px", height="250px"></li>
-            <li>
-                <input type="radio" id="slide2" name="slide">
-                <label for="slide2"></label>
-                <img src="ads.png" width="300px", height="250px"></li>
-            <li>
-                <input type="radio" id="slide3" name="slide">
-                <label for="slide3"></label>
-                <img src="eng de software.png" width="300px", height="250px"></li>
-        </ul><br>
+        </ul>
+        <section>
+            <div class="slider">
+
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <div class="slide first">
+                        <img src="./img/adm.png"
+                            alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/ads.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/eng de software.png" alt="">
+                    </div>
+                </div>
+
+                <div class="navigation-bar">
+                    <label class="manual-btn" for="radio1"></label>
+                    <label class="manual-btn" for="radio2"></label>
+                    <label class="manual-btn" for="radio3"></label>
+                </div>
+
+            </div>
+        </section>
     </aside>
     <footer id="rodape">
         <h2 id="h2">Footer</h2>
